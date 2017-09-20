@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Form Validation</title>
+    <link rel="shortcut icon" href="img/icon.png">
+    <link href="assignment4StyleSheet.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+	</style>
+</head>
+<body>
+    <div class="allPage">
+        <header>
+            <img alt="BClbBanner" height="200" src="img/bookclub-banner.jpg" width="1000">
+        </header>
+        <h3 class="title">Love books? Join the club! </h3>
+        <br>
+        <div class="intro"><span class="club">Nerdy Book Club</span> allows you to not only meet 
+		people online who share your love for books, but also makes it easy to 
+		create your own real-world club, organise events and continue your 
+		conversations afterwards in our dedicated book-orientated social 
+		network... and it won't cost you a penny!</div><br>
+		<div class="benefit">
+		<ul>
+		<li>Meet book lovers who live near you</li>
+		<li>Create your own Book Club</li>
+		<li>Organise Real World Events</li>
+		<li>Share your book collection</li>
+		<li>Discover your next big read</li>
+		<li>Discuss your events and books</li>
+		<li>Live chat with Club Members</li>
+		</ul>
+		</div>
+		<br>
+		<fieldset>
+            <legend>Member Registration</legend>
+            <form>
+                <h4>Please complete all the fields below:</h4>
+                <table style="width: 100%">
+                    <tr>
+                        <td>
+                            <label>First Name:</label></td>
+                        <td>
+                            <input type="text" id="fname" name="First Name"/></td>
+                        <td>
+                            <p id="fnameError" class="errorMsg"></p>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                            <p>
+                                <label>Last Name:</label>
+                            </p>
+                        </td>
+                        <td>
+                            <input type="text" id="lname" name="Last Name"/></td>
+                        <td>
+                            <p id="lnameError" class="errorMsg"></p>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                            <p>
+                                <label>Address:</label>
+                            </p>
+                        </td>
+                        <td>
+                            <input type="text" id="addrs" size="35" name="Address"></td>
+                        <td>
+                            <p id="addressError" class="errorMsg"></p>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 295px">
+
+                            <p>
+                                <label>City:</label>
+                            </p>
+                        </td>
+                        <td>
+                            <input type="text" id="city" name="City"/></td>
+                        <td>
+                            <p id="cityError" class="errorMsg"></p>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                            <p>
+                                <label>Postal Code:</label>
+                            </p>
+                        </td>
+                        <td>
+                            <input type="text" id="pcode" maxlength="7" size="7" name="Postal Code" /></td>
+                        <td>
+                            <p id="pcodeError" class="errorMsg"></p>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                            <p>
+                                <label>Province:</label>
+                            </p>
+                        </td>
+                        <td>
+                            <input type="text" id="province" maxlength="2" size="3" name="Province"/></td>
+                        <td>
+                            <p id="provError" class="errorMsg"></p>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 295px">
+
+                            <p>
+                                <label>Age:</label>
+                            </p>
+                        </td>
+                        <td style="width: 291px">
+                            <input type="text" id="age" maxlength="150" size="3" name="Age"/></td>
+                        <td>
+                            <p id="ageError" class="errorMsg"></p>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                            <p>
+                                <label>Password:</label>
+                            </p>
+                        </td>
+                        <td>
+                            <input type="password" id="pass" name="Password"/></td>
+                        <td>
+                            <p id="pasError" class="errorMsg"></p>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 295px">
+
+                            <label>Confirm:</label>
+                        </td>
+                        <td>
+                            <input type="password" id="cfpass" name="Passcf"/></td>
+                        <td>
+                            <p id="pas2Error" class="errorMsg"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                            <p>Email: </p>
+                        </td>
+                        <td>
+                            <input type="text" id="email" placeholder="example@email.com" name="Email"/></td>
+                        <td>
+                            <p id="emailError" class="errorMsg"></p>
+
+                        </td>
+                    </tr>
+                </table>
+
+                <table class="tblbtn" align="center">
+                    <tr>
+                        <td>
+                            <input type="button" class="btn" id="submit" name="submit" value="Register" /></td>
+                        <td>
+                            <input name="Reset" class="btn" type="reset" value="Clear Form" id="clear" /></td>
+                    </tr>
+                </table>
+            </form>
+</fieldset>
+
+            <div id="footer">
+                <h5>&copy;&nbsp;Copyright Chung Bao Ngan Tran - Student Number : 300933344 - Centennial College - Semester : Summer 2017 </h5>
+            </div>
+        <br />
+        
+
+        <script src="validation.js"></script>
+    </div>
+</body>
+</html>

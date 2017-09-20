@@ -1,0 +1,85 @@
+﻿.allPage {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #000000;
+	background-image: url('img/bg.png');
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+    border-radius:5px;
+}
+input {
+	border: thin outset #FFFFFF;
+	box-shadow: 3px 3px #996600;
+	background-color: #FFFFCC;
+	border-radius: 10px / 1px;
+	width: 150px;
+    height: 30px;
+}
+td {
+	width: 250px;
+	height: 50px;
+	}
+legend {
+	color: #D74600;
+	font-weight: bold;
+	font-style: italic;
+	font-size: large;
+}
+.errorMsg {
+	color: #FF0000;	
+}
+.btn {
+	text-align: center;
+}
+h5 {
+	color: #000000;
+	border-style: inset;
+	border-width: thin;
+}
+body {
+	background-image: url('img/background.gif');
+}
+.title {
+	text-align: center;
+	font-family: "Comic Sans MS";
+	font-size: xx-large;
+	color: #9E612C;
+}
+.intro {
+	font-family: "Book Antiqua";
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.benefit {
+	font-family: "Bookman Old Style";
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #CC0066;
+}
+.club {
+	font-weight: bolder;
+}
+fieldset
+{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tblBtn
+{
+    text-align:center;
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+
+    }
+.btn
+{
+    height: 20px;
+    width:100px;
+    
+    margin-left:auto;
+    margin-right:auto;
+}
